@@ -3,7 +3,7 @@
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
-import { ArrowRight, Quote } from "lucide-react";
+import { ArrowRight, Download, Quote } from "lucide-react";
 
 export default function Home() {
   return (
@@ -46,36 +46,48 @@ export default function Home() {
             , Specializing in MERN & TypeScript to craft scalable web
             applications and AI solutions.
           </motion.p>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.4 }}
-            className="flex flex-wrap justify-center lg:justify-start gap-4"
-          >
-            <button
-              onClick={(e) => {
-                e.preventDefault();
-                const element = document.getElementById("projects");
-                if (element) {
-                  const offset = 80;
-                  const bodyRect = document.body.getBoundingClientRect().top;
-                  const elementRect = element.getBoundingClientRect().top;
-                  window.scrollTo({
-                    top: elementRect - bodyRect - offset,
-                    behavior: "smooth",
-                  });
-                }
-              }}
-              className="group flex items-center gap-3 px-6 py-3 md:px-8 md:py-4 bg-slate-900 dark:bg-white text-white dark:text-slate-900 rounded-xl md:rounded-2xl font-bold transition-all hover:bg-purple-600 dark:hover:bg-purple-500 dark:hover:text-white shadow-xl hover:shadow-purple-500/20 text-xs sm:text-sm md:text-base"
+          <div className="flex flex-row items-center justify-center lg:justify-start gap-6">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.4 }}
+              className="flex flex-wrap justify-center lg:justify-start gap-4"
             >
-              Explore Projects
-              <ArrowRight
-                size={18}
-                className="group-hover:translate-x-1 transition-transform"
-              />
-            </button>
-          </motion.div>
+              <button
+                onClick={(e) => {
+                  e.preventDefault();
+                  const element = document.getElementById("projects");
+                  if (element) {
+                    const offset = 80;
+                    const bodyRect = document.body.getBoundingClientRect().top;
+                    const elementRect = element.getBoundingClientRect().top;
+                    window.scrollTo({
+                      top: elementRect - bodyRect - offset,
+                      behavior: "smooth",
+                    });
+                  }
+                }}
+                className="group flex items-center gap-3 px-6 py-3 md:px-8 md:py-4 bg-slate-900 dark:bg-white text-white dark:text-slate-900 rounded-xl md:rounded-2xl font-bold transition-all hover:bg-purple-600 dark:hover:bg-purple-500 dark:hover:text-white shadow-xl hover:shadow-purple-500/20 text-xs sm:text-sm md:text-base"
+              >
+                Explore Projects
+                <ArrowRight
+                  size={18}
+                  className="group-hover:translate-x-1 transition-transform"
+                />
+              </button>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.6 }}
+              className="px-6 py-3 md:px-8 md:py-4 border-2 border-slate-900 dark:border-white text-slate-900 dark:text-white rounded-xl md:rounded-2xl font-bold transition-all hover:bg-purple-600 hover:border-purple-600 dark:hover:bg-purple-500 dark:hover:border-purple-500 shadow-xl hover:shadow-purple-500/20 text-xs sm:text-sm md:text-base cursor-pointer"
+            >
+              <a href="" className="flex items-center gap-2">
+                <Download size={18} />
+               <a href="./full_stack_developer.pdf" download="full_stack_developer.pdf" > Download CV</a>
+              </a>
+            </motion.div>
+          </div>
         </div>
 
         <motion.div

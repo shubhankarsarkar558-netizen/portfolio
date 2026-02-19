@@ -14,7 +14,8 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
 import UcoderImage from "../public/project/ucoder.png";
-
+import ucoderInsightsImage from "../public/project/ucoder_insights.png";
+import placMentPredictionImage from "../public/project/placement.png";
 const projects = [
   {
     title: "Ucoder",
@@ -39,11 +40,20 @@ const projects = [
     title: "Ucoder Insights",
     description:
       "Lightweight analytics dashboard with full SDKs to track application traffic and errors.",
-    tech: ["Next.js", "TypeScript", "Node.js", "Docker"],
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Node.js",
+      "Docker",
+      "Tailwind CSS",
+      "BullMQ",
+      "Redis",
+      "MongoDB",
+      "PM2"
+    ],
     github: "",
-    live: "",
-    image:
-      "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1000",
+    live: "https://insights.ucoder.in",
+    image: ucoderInsightsImage,
   },
   {
     title: "Music Hub",
@@ -64,6 +74,15 @@ const projects = [
     live: "",
     image:
       "https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=1000",
+  },
+  {
+    title: "Placement Prediction",
+    description:
+      "An AI-powered application for predicting student placement outcomes using machine learning models.",
+    tech: ["Python", "Pandas", "Scikit-learn", "Random Forest","Flask"],
+    github: "https://github.com/soumydip/placement_prediction",
+    live: "https://placement-prediction-u7v7.onrender.com",
+    image: placMentPredictionImage,
   },
   {
     title: "Crypto Market Tracker",
