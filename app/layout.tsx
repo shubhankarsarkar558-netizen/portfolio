@@ -21,7 +21,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://portfolio-delta-lac-26.vercel.app/"),
+  metadataBase: new URL("https://portfolio-one-ochre-53.vercel.app/"),
 
   title: {
     default: "Soumyadip Maity | Full Stack Developer & AI Enthusiast",
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "Soumyadip Maity",
-      url: "https://portfolio-delta-lac-26.vercel.app/",
+      url: "https://portfolio-one-ochre-53.vercel.app/",
     },
   ],
   creator: "Soumyadip Maity",
@@ -96,7 +96,7 @@ export const metadata: Metadata = {
     title: "Soumyadip Maity | Full Stack Developer",
     description:
       "Crafting scalable web applications with MERN Stack, Next.js & Typescript.",
-    url: "https://portfolio-delta-lac-26.vercel.app/",
+    url: "https://portfolio-one-ochre-53.vercel.app/",
     siteName: "Soumyadip Maity Portfolio",
     images: [
       {
@@ -116,7 +116,9 @@ export const metadata: Metadata = {
     title: "Soumyadip Maity | Full Stack Developer",
     description:
       "Crafting scalable web apps with MERN Stack, Next.js & Typescript. View my projects →",
-    images: ["https://res.cloudinary.com/dkqi9h8yw/image/upload/v1768277924/qcywx8qervf0iirwbmvu.png"],
+    images: [
+      "https://res.cloudinary.com/dkqi9h8yw/image/upload/v1768277924/qcywx8qervf0iirwbmvu.png",
+    ],
     creator: "@soumyadip2maity",
     site: "@soumyadip2maity",
   },

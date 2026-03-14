@@ -51,8 +51,8 @@ const projects = [
       "MongoDB",
       "PM2"
     ],
-    github: "",
-    live: "https://insights.ucoder.in",
+    github: "https://github.com/soumydip/ucoder_insight_core",
+    live: "https://insights.ucoder.in?utm_source=soumyadip_portfolio&utm_medium=referral",
     image: ucoderInsightsImage,
   },
   {
@@ -81,7 +81,7 @@ const projects = [
       "An AI-powered application for predicting student placement outcomes using machine learning models.",
     tech: ["Python", "Pandas", "Scikit-learn", "Random Forest","Flask"],
     github: "https://github.com/soumydip/placement_prediction",
-    live: "https://placement-prediction-u7v7.onrender.com",
+    live: "https://placement-prediction-u7v7.onrender.com?utm_source=soumyadip_portfolio&utm_medium=referral",
     image: placMentPredictionImage,
   },
   {
@@ -90,7 +90,7 @@ const projects = [
       "Analyzing cryptocurrency price trends and market volatility using time-series data analysis.",
     tech: ["Python", "Pandas", "NumPy", "Seaborn"],
     github: "https://github.com/soumydip/Cryptocurrency_analysis",
-    live: "",
+    live: "https://cryptocurrency-analysis.onrender.com?utm_source=soumyadip_portfolio&utm_medium=referral",
     image:
       "https://images.unsplash.com/photo-1621761191319-c6fb62004040?q=80&w=1000",
   },

@@ -13,25 +13,21 @@ import { motion } from "framer-motion";
 
 const skills = [
   {
-    name: "JavaScript",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-    desc: "The core language for building interactive and dynamic web logic.",
-  },
-  {
     name: "TypeScript",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
     desc: "Enhancing code reliability with static typing and modern features.",
-  },
-  {
-    name: "React.js",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-    desc: "Building component-based user interfaces with efficient state management.",
   },
   {
     name: "Next.js",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
     desc: "Developing SEO-friendly, high-performance full-stack applications.",
   },
+  {
+    name: "React.js",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    desc: "Building component-based user interfaces with efficient state management.",
+  },
+
   {
     name: "Node.js",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
@@ -48,9 +44,15 @@ const skills = [
     desc: "Designing flexible NoSQL databases for modern web applications.",
   },
   {
-    name: "SQL",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
-    desc: "Managing structured data and optimizing complex database queries.",
+    name:"Redis",
+    logo:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
+    desc:"Implementing in-memory data storage for high-performance caching and real-time applications.",
+  },
+
+  {
+    name: "JavaScript",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    desc: "The core language for building interactive and dynamic web logic.",
   },
   {
     name: "Tailwind CSS",
@@ -58,26 +60,38 @@ const skills = [
     desc: "Crafting modern, responsive designs with utility-first CSS.",
   },
   {
-    name: "Bootstrap",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
-    desc: "Quickly prototyping and styling responsive grid-based layouts.",
+    name:"Bootstrap",
+    logo:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+    desc:"Building responsive, mobile-first websites with pre-designed components.",
   },
   {
-    name: "Radix UI",
-    logo: "https://simpleicons.org/icons/radixui.svg",
-    desc: "Building accessible and unstyled UI components for React.",
+    name: "CSS3",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    desc: "Styling web content with modern layout techniques and animations.",
   },
+  {
+    name: "HTML5",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    desc: "Structuring web content with semantic elements for better accessibility and SEO.",
+  },
+
   {
     name: "Git & GitHub",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
     desc: "Collaborating and managing code versions through industry standards.",
   },
   {
+    name: "Postman",
+    logo: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
+    desc: "Testing and documenting REST APIs to ensure seamless integration.",
+  },
+  {
     name: "AI & Data Science",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-    desc: "Building predictive models with Scikit-learn and performing data manipulation using Pandas and NumPy.",
+    desc: "Building predictive models and performing data manipulation using Python.",
   },
 ];
+
 export default function Skills() {
   const [api, setApi] = React.useState<CarouselApi>();
 

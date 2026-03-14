@@ -82,9 +82,13 @@ export default function Home() {
               transition={{ delay: 0.6 }}
               className="px-6 py-3 md:px-8 md:py-4 border-2 border-slate-900 dark:border-white text-slate-900 dark:text-white rounded-xl md:rounded-2xl font-bold transition-all hover:bg-purple-600 hover:border-purple-600 dark:hover:bg-purple-500 dark:hover:border-purple-500 shadow-xl hover:shadow-purple-500/20 text-xs sm:text-sm md:text-base cursor-pointer"
             >
-              <a href="" className="flex items-center gap-2">
+              <a
+                href="./soumyadip_maity_fullstack_cv.pdf"
+                download="soumyadip_maity_fullstack_cv.pdf"
+                className="flex items-center gap-2"
+              >
                 <Download size={18} />
-               <a href="./full_stack_developer.pdf" download="full_stack_developer.pdf" > Download CV</a>
+                <span>Download CV</span>
               </a>
             </motion.div>
           </div>
@@ -105,11 +109,11 @@ export default function Home() {
               className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 lg:w-96 lg:h-96 rounded-[2rem] md:rounded-[3.5rem] overflow-hidden border-2 border-slate-200 dark:border-slate-800 p-1.5 md:p-2 bg-white dark:bg-slate-900 shadow-2xl group-hover:border-purple-500/50 transition-colors duration-500"
             >
               <Image
-                src="https://res.cloudinary.com/dkqi9h8yw/image/upload/v1768277924/qcywx8qervf0iirwbmvu.png"
+                src="/cv.jpeg"
                 alt="Soumyadip"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 40vw"
-                className="object-cover p-1.5 md:p-2 rounded-[1.8rem] md:rounded-[3.3rem] group-hover:scale-105 transition-transform duration-700"
+                className="object-cover object-top  p-1.5 md:p-2 rounded-[1.8rem] md:rounded-[3.3rem] group-hover:scale-105 transition-transform duration-700"
                 priority
               />
             </motion.div>
