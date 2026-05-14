@@ -25,6 +25,9 @@ const Projects = dynamic(() => import("@/components/ProjectShowcase"), {
 const Contact = dynamic(() => import("@/components/Contact"), {
   ssr: true,
 });
+const Npm = dynamic(() => import("@/components/NpmSection"), {
+  ssr: true,
+});
 
 export default function Page() {
   return (
@@ -34,8 +37,9 @@ export default function Page() {
       <About />
       <Skills />
       <Achievements />
+      <Npm />
       <Projects />
-      <Education/>
+      <Education />
       <Contact />
       <Footer />
     </main>

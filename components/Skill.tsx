@@ -12,31 +12,57 @@ import {
 import { motion } from "framer-motion";
 
 const skills = [
+  // Languages
   {
     name: "TypeScript",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-    desc: "Enhancing code reliability with static typing and modern features.",
+    desc: "Enhancing code reliability with static typing across full-stack applications.",
   },
+  {
+    name: "JavaScript",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    desc: "Core language for building interactive and dynamic web applications.",
+  },
+
+  // Frontend
   {
     name: "Next.js",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-    desc: "Developing SEO-friendly, high-performance full-stack applications.",
+    desc: "Building SEO-friendly, high-performance full-stack applications with App Router.",
   },
   {
     name: "React.js",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-    desc: "Building component-based user interfaces with efficient state management.",
+    desc: "Building component-based UIs with efficient state management.",
+  },
+  {
+    name: "Tailwind CSS",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+    desc: "Crafting modern, responsive designs with utility-first CSS.",
   },
 
+  // Backend
   {
     name: "Node.js",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-    desc: "Powering server-side applications with fast and scalable execution.",
+    desc: "Powering server-side applications with fast, scalable execution.",
   },
   {
     name: "Express.js",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
     desc: "Creating robust REST APIs and back-end services with minimal overhead.",
+  },
+
+  // Databases
+  {
+    name: "PostgreSQL",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+    desc: "Designing relational databases with complex queries, RLS and migrations.",
+  },
+  {
+    name: "Supabase",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg",
+    desc: "Building scalable backends with auth, real-time DB and storage.",
   },
   {
     name: "MongoDB",
@@ -44,41 +70,32 @@ const skills = [
     desc: "Designing flexible NoSQL databases for modern web applications.",
   },
   {
-    name:"Redis",
-    logo:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
-    desc:"Implementing in-memory data storage for high-performance caching and real-time applications.",
+    name: "Redis",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
+    desc: "High-performance caching, session management and job queue systems.",
   },
 
+  // Infrastructure
   {
-    name: "JavaScript",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-    desc: "The core language for building interactive and dynamic web logic.",
+    name: "Docker",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+    desc: "Containerizing applications for consistent environments and easy deployment.",
   },
   {
-    name: "Tailwind CSS",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
-    desc: "Crafting modern, responsive designs with utility-first CSS.",
+    name: "BullMQ",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
+    desc: "Implementing robust job queues and background processing for scalable applications.",
   },
   {
-    name:"Bootstrap",
-    logo:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
-    desc:"Building responsive, mobile-first websites with pre-designed components.",
+    name: "WebSockets",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg",
+    desc: "Enabling real-time, bidirectional communication for live features.",
   },
-  {
-    name: "CSS3",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-    desc: "Styling web content with modern layout techniques and animations.",
-  },
-  {
-    name: "HTML5",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-    desc: "Structuring web content with semantic elements for better accessibility and SEO.",
-  },
-
+  // Tools
   {
     name: "Git & GitHub",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
-    desc: "Collaborating and managing code versions through industry standards.",
+    desc: "Version control and collaborative development through industry standards.",
   },
   {
     name: "Postman",
@@ -86,9 +103,9 @@ const skills = [
     desc: "Testing and documenting REST APIs to ensure seamless integration.",
   },
   {
-    name: "AI & Data Science",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-    desc: "Building predictive models and performing data manipulation using Python.",
+    name: "VS Code",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+    desc: "Efficient code editing with powerful extensions and integrated tools.",
   },
 ];
 

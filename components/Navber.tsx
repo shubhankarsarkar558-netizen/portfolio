@@ -8,6 +8,7 @@ const navItems = [
   { name: "Home", link: "home" },
   { name: "About", link: "about" },
   { name: "Skills", link: "skills" },
+  { name: "Open Source", link: "npm" },
   { name: "Projects", link: "projects" },
   { name: "Education", link: "education" },
   { name: "Contact", link: "contact" },
@@ -35,7 +36,7 @@ export default function Navbar() {
   const handleScroll = (
     e: React.MouseEvent,
     targetId: string,
-    name: string
+    name: string,
   ) => {
     e.preventDefault();
     const element = document.getElementById(targetId);
@@ -69,7 +70,7 @@ export default function Navbar() {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           const current = navItems.find(
-            (item) => item.link === entry.target.id
+            (item) => item.link === entry.target.id,
           );
           if (current) setActive(current.name);
         }
@@ -78,7 +79,7 @@ export default function Navbar() {
 
     const observer = new IntersectionObserver(
       observerCallback,
-      observerOptions
+      observerOptions,
     );
 
     navItems.forEach((item) => {

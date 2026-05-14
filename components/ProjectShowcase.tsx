@@ -16,86 +16,51 @@ import Image from "next/image";
 import UcoderImage from "../public/project/ucoder.png";
 import ucoderInsightsImage from "../public/project/ucoder_insights.png";
 import placMentPredictionImage from "../public/project/placement.png";
+
 const projects = [
-  {
-    title: "Ucoder",
-    description:
-      "A full-stack solution with Express and Vite for service-based applications.",
-    tech: ["Express", "Vite", "MongoDB", "Tailwind CSS", "Docker"],
-    github: "",
-    live: "https://www.ucoder.in",
-    image: UcoderImage,
-  },
-  {
-    title: "Mini Bank",
-    description:
-      "A mini banking application with user authentication and transaction features.",
-    tech: ["React", "Node.js", "MongoDB", "Vite", "Bootstrap"],
-    github: "https://github.com/soumydip/myminiBank.github.io",
-    live: "",
-    image:
-      "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=1000",
-  },
   {
     title: "Ucoder Insights",
     description:
-      "Lightweight analytics dashboard with full SDKs to track application traffic and errors.",
-    tech: [
-      "Next.js",
-      "TypeScript",
-      "Node.js",
-      "Docker",
-      "Tailwind CSS",
-      "BullMQ",
-      "Redis",
-      "MongoDB",
-      "PM2"
-    ],
+      "Production-grade analytics platform with custom SDKs to track " +
+      "real-time traffic, errors and events. Handles high-throughput " +
+      "data ingestion via BullMQ job queues with Redis caching.",
+    tech: ["Next.js", "TypeScript", "Node.js", "BullMQ",
+           "Redis", "MongoDB", "Docker", "PM2"],
     github: "https://github.com/soumydip/ucoder_insight_core",
-    live: "https://insights.ucoder.in?utm_source=soumyadip_portfolio&utm_medium=referral",
-    image: ucoderInsightsImage,
+    live:   "https://insights.ucoder.in",
+    image:  ucoderInsightsImage,
   },
   {
-    title: "Music Hub",
+    title: "Ucoder",
     description:
-      "A dedicated music platform for streaming and discovering new tracks with a modern UI.",
-    tech: ["React", "CSS", "Bootstrap", "SCSS"],
+      "Full-stack service platform with real-time features, " +
+      "containerized deployment on Linux VPS with Docker.",
+    tech: ["Express", "Vite", "MongoDB", "Tailwind CSS", "Docker"],
     github: "",
-    live: "",
-    image:
-      "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=1000",
-  },
-  {
-    title: "Breast Cancer Detection",
-    description:
-      "An AI-powered application for early detection of breast cancer using machine learning models.",
-    tech: ["Python", "Pandas", "Scikit-learn", "Random Forest"],
-    github: "https://github.com/soumydip/Breast_Cancer_Prediction",
-    live: "",
-    image:
-      "https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=1000",
+    live:   "https://www.ucoder.in",
+    image:  UcoderImage,
   },
   {
     title: "Placement Prediction",
     description:
-      "An AI-powered application for predicting student placement outcomes using machine learning models.",
-    tech: ["Python", "Pandas", "Scikit-learn", "Random Forest","Flask"],
+      "ML-powered web app predicting student placement outcomes " +
+      "using Random Forest classifier with 89% accuracy.",
+    tech: ["Python", "Flask", "Pandas", "Scikit-learn", "Random Forest"],
     github: "https://github.com/soumydip/placement_prediction",
-    live: "https://placement-prediction-u7v7.onrender.com?utm_source=soumyadip_portfolio&utm_medium=referral",
-    image: placMentPredictionImage,
+    live:   "https://placement-prediction-u7v7.onrender.com",
+    image:  placMentPredictionImage,
   },
   {
-    title: "Crypto Market Tracker",
+    title: "Breast Cancer Detection",
     description:
-      "Analyzing cryptocurrency price trends and market volatility using time-series data analysis.",
-    tech: ["Python", "Pandas", "NumPy", "Seaborn"],
-    github: "https://github.com/soumydip/Cryptocurrency_analysis",
-    live: "https://cryptocurrency-analysis.onrender.com?utm_source=soumyadip_portfolio&utm_medium=referral",
-    image:
-      "https://images.unsplash.com/photo-1621761191319-c6fb62004040?q=80&w=1000",
+      "Early detection model using machine learning " +
+      "achieving high accuracy on clinical datasets.",
+    tech: ["Python", "Pandas", "Scikit-learn", "Random Forest"],
+    github: "https://github.com/soumydip/Breast_Cancer_Prediction",
+    live:   "",
+    image:  "https://images.unsplash.com/photo-1576091160550-2173dba999ef",
   },
-];
-
+]
 export default function StackedProjects() {
   const [index, setIndex] = useState(0);
 

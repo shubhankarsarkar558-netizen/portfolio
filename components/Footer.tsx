@@ -15,7 +15,7 @@ export default function Footer() {
             Soumyadip <span className="text-purple-500"> Maity</span>
           </h3>
           <p className="text-xs uppercase tracking-widest text-slate-500">
-            Full Stack Developer • AI Enthusiast
+            Full Stack Developer | MERN Stack 
           </p>
           <p className="text-[10px] text-slate-400 mt-4">
             © {new Date().getFullYear()} All Rights Reserved
