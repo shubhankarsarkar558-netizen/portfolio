@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://portfolio-one-ochre-53.vercel.app/sitemap.xml",
+    sitemap: "https://soumyadip.ucoder.in/sitemap.xml",
   };
 }

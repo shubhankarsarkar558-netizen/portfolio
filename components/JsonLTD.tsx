@@ -3,7 +3,7 @@ export function StructuredData() {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Soumyadip Maity",
-    url: "https://portfolio-one-ochre-53.vercel.app/",
+    url: "https://soumyadip.ucoder.in/",
 
     image:
       "https://res.cloudinary.com/dkqi9h8yw/image/upload/v1768277924/qcywx8qervf0iirwbmvu.png",
@@ -22,13 +22,13 @@ export function StructuredData() {
     worksFor: {
       "@type": "Organization",
       name: "Freelance / Ucoder",
-      url: ["https://www.ucoder.in", "https://insights.ucoder.in"],
+       url: "https://insights.ucoder.in"
     },
 
     brand: {
       "@type": "Brand",
       name: "Ucoder",
-      url: ["https://www.ucoder.in", "https://insights.ucoder.in"],
+       url: "https://insights.ucoder.in"
     },
     alumniOf: {
       "@type": "CollegeOrUniversity",
@@ -49,6 +49,8 @@ export function StructuredData() {
       "Data Structures and Algorithms",
       "REST APIs",
       "Cloud Deployment",
+      "sql",
+      "Redis"
     ],
     address: {
       "@type": "PostalAddress",

@@ -6,7 +6,7 @@ Welcome to my personal portfolio! This is a high-performance, responsive web app
 
 ## Live Demo
 
-Check out the live version here: **[https://portfolio-one-ochre-53.vercel.app/](https://portfolio-one-ochre-53.vercel.app/)**
+Check out the live version here: **[https://soumyadip.ucoder.in/](https://soumyadip.ucoder.in/)**
 
 ---
 

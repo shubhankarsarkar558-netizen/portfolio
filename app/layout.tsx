@@ -21,8 +21,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://portfolio-one-ochre-53.vercel.app/"),
-
+  metadataBase: new URL("https://soumyadip.ucoder.in/"),
   title: {
     default: "Soumyadip Maity | Full Stack Developer & AI Enthusiast",
     template: "%s | Soumyadip Maity",
@@ -55,7 +54,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "Soumyadip Maity",
-      url: "https://portfolio-one-ochre-53.vercel.app/",
+      url: "https://soumyadip.ucoder.in/",
     },
   ],
   creator: "Soumyadip Maity",
@@ -79,9 +78,7 @@ export const metadata: Metadata = {
     },
   },
 
-  alternates: {
-    canonical: "/",
-  },
+  alternates: { canonical: "https://soumyadip.ucoder.in/" },
 
   icons: {
     icon: [
@@ -94,9 +91,10 @@ export const metadata: Metadata = {
   manifest: "/site.webmanifest",
   openGraph: {
     title: "Soumyadip Maity | Full Stack Developer",
+
     description:
       "Crafting scalable web applications with MERN Stack, Next.js & Typescript.",
-    url: "https://portfolio-one-ochre-53.vercel.app/",
+    url: "https://soumyadip.ucoder.in/",
     siteName: "Soumyadip Maity Portfolio",
     images: [
       {
@@ -121,10 +119,6 @@ export const metadata: Metadata = {
     ],
     creator: "@soumyadip2maity",
     site: "@soumyadip2maity",
-  },
-
-  other: {
-    "google-site-verification": "sNv55sfGvBeZ7asoFMOnxlrAWg8zY5Byk8gV0znbAtM",
   },
 };
 
