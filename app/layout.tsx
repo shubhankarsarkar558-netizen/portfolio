@@ -63,7 +63,7 @@ export const metadata: Metadata = {
   category: "Technology",
   classification: "Portfolio Website",
   verification: {
-    google: "sNv55sfGvBeZ7asoFMOnxlrAWg8zY5Byk8gV0znbAtM",
+    google: "HYXriKdykPP32qy8gCqvx2KmooO1bm2eJusZn9YilmM",
   },
 
   robots: {
