@@ -21,7 +21,7 @@
 
 ---
 
-## 🧑‍💻 About
+##  About
 
 Personal portfolio of **Soumyadip Maity** — a Full Stack Developer from Kolkata, India, specializing in the **MERN stack**, **Next.js**, and **AI solutions**. Built with a focus on performance, SEO, and a premium dark UI experience.
 
@@ -44,13 +44,13 @@ Personal portfolio of **Soumyadip Maity** — a Full Stack Developer from Kolkat
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ```
 Frontend    →  Next.js 15 (App Router) · React · TypeScript
-Styling     →  Tailwind CSS
+Styling     →  Tailwind CSS,boostrap
 Animations  →  Framer Motion
-Icons       →  Lucide React
+Icons       →  Lucide React , font awesome 
 Theming     →  next-themes
 SEO         →  Schema.org JSON-LD · OpenGraph · Sitemap
 Hosting     →  Vercel
