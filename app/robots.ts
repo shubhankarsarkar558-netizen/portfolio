@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://soumyadip.ucoder.in/sitemap.xml",
+    sitemap: "https://shubhankar.ucoder.in/sitemap.xml",
   };
 }

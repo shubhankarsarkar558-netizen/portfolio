@@ -7,7 +7,7 @@ export function StructuredData() {
     url: "https://shubhankar.ucoder.in/",
 
     image:
-"/me.png",
+"https://shubhankar.ucoder.in/me.png",
     sameAs: [
       "https://github.com/shubhankarsarkar558-netizen",
       "https://www.linkedin.com/",

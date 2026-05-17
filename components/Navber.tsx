@@ -104,7 +104,7 @@ export default function Navbar() {
             onClick={(e) => handleScroll(e, "home", "Home")}
             className="text-2xl font-bold italic tracking-tighter text-slate-900 dark:text-white"
           >
-            SOUMYA
+            SHUBHANKAR
           </button>
 
           <ul className="hidden md:flex items-center gap-2">
@@ -221,7 +221,7 @@ export default function Navbar() {
 
               <div className="mt-auto pt-6 border-t border-slate-100 dark:border-slate-800 text-center">
                 <p className="text-xs text-slate-500">
-                  &copy; 2025 Soumyadip Portfolio
+                  &copy; 2025 shubhankar Portfolio
                 </p>
               </div>
             </motion.div>

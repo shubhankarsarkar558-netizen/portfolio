@@ -30,6 +30,7 @@ export const metadata: Metadata = {
 
   description:
     "Shubhankar Sarkar - AI & Machine Learning Engineer specializing in Data Analytics, Deep Learning, Python and predictive AI systems.",
+  
 
   keywords: [
     "Shubhankar Sarkar",
@@ -118,7 +119,7 @@ export const metadata: Metadata = {
 
     images: [
       {
-url:"/me.png",  
+url:"https://shubhankar.ucoder.in/me.png",  
       width: 1200,
         height: 630,
         alt: "Shubhankar Sarkar - AI & Machine Learning Portfolio",
@@ -139,7 +140,7 @@ url:"/me.png",
       "AI, Machine Learning and Data Analytics portfolio showcasing intelligent systems and predictive models.",
 
     images: [
-      "/me.png"
+      "https://shubhankar.ucoder.in/me.png"
     ],
   },
 };
