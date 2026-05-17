@@ -12,10 +12,10 @@ export default function Footer() {
         </div>
         <div className="text-center">
           <h3 className="text-lg font-bold dark:text-white">
-            Soumyadip <span className="text-purple-500"> Maity</span>
+            Shubnahkar <span className="text-purple-500"> Sarkar</span>
           </h3>
           <p className="text-xs uppercase tracking-widest text-slate-500">
-            Full Stack Developer | MERN Stack 
+            AI ML & Data Analysis
           </p>
           <p className="text-[10px] text-slate-400 mt-4">
             © {new Date().getFullYear()} All Rights Reserved
@@ -30,7 +30,7 @@ export default function Footer() {
           >
             ❤️
           </motion.span>
-          by Soumyadip
+          by Shubhankar
         </p>
       </div>
     </footer>

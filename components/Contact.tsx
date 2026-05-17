@@ -16,37 +16,37 @@ const socialLinks = [
   {
     name: "GitHub",
     icon: <Github size={20} />,
-    link: "https://github.com/soumydip",
+    link: "https://github.com/shubhankarsarkar558-netizen",
     color: "hover:text-black dark:hover:text-white",
   },
   {
     name: "LinkedIn",
     icon: <Linkedin size={20} />,
-    link: "https://www.linkedin.com/in/soumyadip-maity-183ba3310/",
+    link: "https://www.linkedin.com/in/shubhankar-sarkar-528193322/",
     color: "hover:text-blue-600 dark:hover:text-blue-400",
   },
   {
     name: "X",
     icon: <Twitter size={20} />,
-    link: "https://x.com/soumyadip2maity",
+    link: "https://x.com/sarkar316731",
     color: "hover:text-sky-500 dark:hover:text-sky-400",
   },
   {
     name: "Instagram",
     icon: <Instagram size={20} />,
-    link: "https://www.instagram.com/soumyadip2912/",
+    link: "https://www.instagram.com/shubhankar.sarkar98/",
     color: "hover:text-pink-500 dark:hover:text-pink-400",
   },
   {
     name: "Email",
     icon: <Mail size={20} />,
-    link: "mailto:maitysoumyadip22@gmail.com",
+    link: "mailto:shubnahkarsarkar558@gmail.com",
     color: "hover:text-purple-600 dark:hover:text-purple-400",
   },
   {
     name: "Facebook",
     icon: <Facebook size={20} />,
-    link: "https://www.facebook.com/share/17ZUJY8DMC/",
+    link: "https://www.facebook.com/shuvangkar.sarkar.5",
     color: "hover:text-blue-700 dark:hover:text-blue-500",
   }
 ];

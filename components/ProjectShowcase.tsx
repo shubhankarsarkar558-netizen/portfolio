@@ -15,52 +15,81 @@ import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
 import UcoderImage from "../public/project/ucoder.png";
 import ucoderInsightsImage from "../public/project/ucoder_insights.png";
-import placMentPredictionImage from "../public/project/placement.png";
 
 const projects = [
   {
-    title: "Ucoder Insights",
+    title: "AI Data Analytics Dashboard",
     description:
-      "Production-grade analytics platform with custom SDKs to track " +
-      "real-time traffic, errors and events. Handles high-throughput " +
-      "data ingestion via BullMQ job queues with Redis caching.",
-    tech: ["Next.js", "TypeScript", "Node.js", "BullMQ",
-           "Redis", "MongoDB", "Docker", "PM2"],
-    github: "https://github.com/soumydip/ucoder_insight_core",
-    live:   "https://insights.ucoder.in",
-    image:  ucoderInsightsImage,
+      "Production-grade analytics platform for visualizing business insights, " +
+      "real-time metrics and predictive analysis using Machine Learning models.",
+    tech: [
+      "Python",
+      "Pandas",
+      "Scikit-learn",
+      "TensorFlow",
+      "MongoDB",
+      "Docker",
+    ],
+    github: "https://github.com/shubhankarsarkar558-netizen",
+    live: "",
+    image:
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop",
   },
+
   {
-    title: "Ucoder",
+    title: "Student Performance Predictor",
     description:
-      "Full-stack service platform with real-time features, " +
-      "containerized deployment on Linux VPS with Docker.",
-    tech: ["Express", "Vite", "MongoDB", "Tailwind CSS", "Docker"],
-    github: "",
-    live:   "https://www.ucoder.in",
-    image:  UcoderImage,
+      "Machine Learning based system predicting student performance " +
+      "and placement outcomes using classification algorithms.",
+    tech: [
+      "Python",
+      "Flask",
+      "Pandas",
+      "Scikit-learn",
+      "Random Forest",
+    ],
+    github: "https://github.com/shubhankarsarkar558-netizen/salary1",
+    live: "",
+    image:
+      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop",
   },
+
   {
-    title: "Placement Prediction",
+    title: "Salary Prediction System",
     description:
-      "ML-powered web app predicting student placement outcomes " +
-      "using Random Forest classifier with 89% accuracy.",
-    tech: ["Python", "Flask", "Pandas", "Scikit-learn", "Random Forest"],
-    github: "https://github.com/soumydip/placement_prediction",
-    live:   "https://placement-prediction-u7v7.onrender.com",
-    image:  placMentPredictionImage,
+      "AI-powered salary prediction application using regression " +
+      "algorithms and real-world datasets for accurate forecasting.",
+    tech: [
+      "Python",
+      "Machine Learning",
+      "Pandas",
+      "Scikit-learn",
+      "Linear Regression",
+    ],
+    github: "https://github.com/shubhankarsarkar558-netizen/salary1",
+    live: "",
+    image:
+      "https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1200&auto=format&fit=crop",
   },
+
   {
-    title: "Breast Cancer Detection",
+    title: "Loan Approval Prediction",
     description:
-      "Early detection model using machine learning " +
-      "achieving high accuracy on clinical datasets.",
-    tech: ["Python", "Pandas", "Scikit-learn", "Random Forest"],
-    github: "https://github.com/soumydip/Breast_Cancer_Prediction",
-    live:   "",
-    image:  "https://images.unsplash.com/photo-1576091160550-2173dba999ef",
+      "Machine Learning model for predicting bank loan approval " +
+      "based on applicant financial and demographic data.",
+    tech: [
+      "Python",
+      "Pandas",
+      "Scikit-learn",
+      "Random Forest",
+      "Data Analytics",
+    ],
+    github: "https://github.com/shubhankarsarkar558-netizen/loan_approval",
+    live: "",
+    image:
+      "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?q=80&w=1200&auto=format&fit=crop",
   },
-]
+];
 export default function StackedProjects() {
   const [index, setIndex] = useState(0);
 

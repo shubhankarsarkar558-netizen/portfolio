@@ -21,54 +21,66 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://soumyadip.ucoder.in/"),
+  metadataBase: new URL("https://shubhankar.ucoder.in/"),
+
   title: {
-    default: "Soumyadip Maity | Full Stack Developer & AI Enthusiast",
-    template: "%s | Soumyadip Maity",
+    default: "Shubhankar Sarkar | AI & Machine Learning Engineer",
+    template: "%s | Shubhankar Sarkar",
   },
 
   description:
-    "Soumyadip Maity - Full Stack Developer crafting scalable web applications with MERN Stack, Next.js & AI. Available for freelance projects.",
+    "Shubhankar Sarkar - AI & Machine Learning Engineer specializing in Data Analytics, Deep Learning, Python and predictive AI systems.",
 
   keywords: [
-    "Soumyadip Maity",
-    "Full Stack Developer",
-    "MERN Stack Developer",
+    "Shubhankar Sarkar",
+    "Machine Learning Engineer",
+    "AI Engineer",
+    "Data Analyst",
+    "Artificial Intelligence",
 
-    "Web Developer Kolkata",
-    "Full Stack Developer India",
-    "Developer West Bengal",
+    "Machine Learning Kolkata",
+    "AI Engineer India",
+    "Data Analyst West Bengal",
 
-    "React Developer",
-    "Next.js Developer",
-    "Node.js Developer",
-    "TypeScript Developer",
-    "MongoDB Developer",
-    "Express.js Developer",
-    "Typescript Developer",
-    "Freelance Web Developer",
-    "AI Solutions Developer",
+    "Python Developer",
+    "TensorFlow Developer",
+    "Scikit-learn",
+    "Deep Learning",
+    "Data Science",
+    "Data Analytics",
+    "Neural Networks",
+    "Pandas",
+    "NumPy",
+    "SQL",
+    "MongoDB",
+
+    "Freelance AI Developer",
+    "Predictive Analytics",
+    "AI Solutions",
     "Software Engineer",
   ],
 
   authors: [
     {
-      name: "Soumyadip Maity",
-      url: "https://soumyadip.ucoder.in/",
+      name: "Shubhankar Sarkar",
+      url: "https://shubhankar.ucoder.in/",
     },
   ],
-  creator: "Soumyadip Maity",
-  publisher: "Soumyadip Maity",
+
+  creator: "Shubhankar Sarkar",
+  publisher: "Shubhankar Sarkar",
 
   category: "Technology",
-  classification: "Portfolio Website",
+  classification: "AI & Machine Learning Portfolio",
+
   verification: {
-    google: "HYXriKdykPP32qy8gCqvx2KmooO1bm2eJusZn9YilmM",
+    google: "GArOY7tMKgk4llUNYhrSpNqVX6ZxA4lc8KHbXVavo4A",
   },
 
   robots: {
     index: true,
     follow: true,
+
     googleBot: {
       index: true,
       follow: true,
@@ -78,47 +90,57 @@ export const metadata: Metadata = {
     },
   },
 
-  alternates: { canonical: "https://soumyadip.ucoder.in/" },
+  alternates: {
+    canonical: "https://shubhankar.ucoder.in/",
+  },
 
   icons: {
     icon: [
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
       { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
     ],
+
     shortcut: "/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
+
   manifest: "/site.webmanifest",
+
   openGraph: {
-    title: "Soumyadip Maity | Full Stack Developer",
+    title: "Shubhankar Sarkar | AI & Machine Learning Engineer",
 
     description:
-      "Crafting scalable web applications with MERN Stack, Next.js & Typescript.",
-    url: "https://soumyadip.ucoder.in/",
-    siteName: "Soumyadip Maity Portfolio",
+      "Building intelligent systems using AI, Machine Learning and Data Analytics.",
+
+    url: "https://shubhankar.ucoder.in/",
+
+    siteName: "Shubhankar Sarkar Portfolio",
+
     images: [
       {
-        url: "https://res.cloudinary.com/dkqi9h8yw/image/upload/v1768277924/qcywx8qervf0iirwbmvu.png",
-        width: 1200,
+url:"/me.png",  
+      width: 1200,
         height: 630,
-        alt: "Soumyadip Maity - Full Stack Developer Portfolio",
-        type: "image/png",
+        alt: "Shubhankar Sarkar - AI & Machine Learning Portfolio",
+        type: "image/jpeg",
       },
     ],
+
     locale: "en_US",
     type: "website",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Soumyadip Maity | Full Stack Developer",
+
+    title: "Shubhankar Sarkar | AI & Machine Learning Engineer",
+
     description:
-      "Crafting scalable web apps with MERN Stack, Next.js & Typescript. View my projects →",
+      "AI, Machine Learning and Data Analytics portfolio showcasing intelligent systems and predictive models.",
+
     images: [
-      "https://res.cloudinary.com/dkqi9h8yw/image/upload/v1768277924/qcywx8qervf0iirwbmvu.png",
+      "/me.png"
     ],
-    creator: "@soumyadip2maity",
-    site: "@soumyadip2maity",
   },
 };
 
@@ -132,6 +154,7 @@ export default function RootLayout({
       <head>
         <StructuredData />
       </head>
+
       <body
         className={`${inter.className} antialiased selection:bg-purple-500/30 selection:text-purple-600 dark:selection:text-purple-400`}
       >

@@ -12,100 +12,81 @@ import {
 import { motion } from "framer-motion";
 
 const skills = [
-  // Languages
+  // Programming Languages
   {
-    name: "TypeScript",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-    desc: "Enhancing code reliability with static typing across full-stack applications.",
+    name: "Python",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+    desc: "Building AI, Machine Learning and data-driven applications using Python.",
   },
   {
-    name: "JavaScript",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-    desc: "Core language for building interactive and dynamic web applications.",
-  },
-
-  // Frontend
-  {
-    name: "Next.js",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-    desc: "Building SEO-friendly, high-performance full-stack applications with App Router.",
-  },
-  {
-    name: "React.js",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-    desc: "Building component-based UIs with efficient state management.",
-  },
-  {
-    name: "Tailwind CSS",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
-    desc: "Crafting modern, responsive designs with utility-first CSS.",
+    name: "Java",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+    desc: "Developing scalable applications with strong object-oriented programming concepts.",
   },
 
-  // Backend
+  // Data Science & Analytics
   {
-    name: "Node.js",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-    desc: "Powering server-side applications with fast, scalable execution.",
+    name: "Pandas",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg",
+    desc: "Performing data cleaning, transformation and analysis efficiently.",
   },
   {
-    name: "Express.js",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-    desc: "Creating robust REST APIs and back-end services with minimal overhead.",
+    name: "NumPy",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg",
+    desc: "Handling numerical computations and multidimensional data processing.",
+  },
+  {
+    name: "Matplotlib",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg",
+    desc: "Creating data visualizations and analytical charts for insights.",
+  },
+
+  // Machine Learning
+  {
+    name: "Scikit-learn",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg",
+    desc: "Building predictive Machine Learning models and analytics pipelines.",
   },
 
   // Databases
   {
-    name: "PostgreSQL",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
-    desc: "Designing relational databases with complex queries, RLS and migrations.",
-  },
-  {
-    name: "Supabase",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg",
-    desc: "Building scalable backends with auth, real-time DB and storage.",
-  },
-  {
-    name: "MongoDB",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-    desc: "Designing flexible NoSQL databases for modern web applications.",
-  },
-  {
-    name: "Redis",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
-    desc: "High-performance caching, session management and job queue systems.",
+    name: "MySQL",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+    desc: "Managing structured databases and performing complex SQL queries.",
   },
 
-  // Infrastructure
+  // AI & Analytics
   {
-    name: "Docker",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
-    desc: "Containerizing applications for consistent environments and easy deployment.",
+    name: "Machine Learning",
+    logo: "https://cdn-icons-png.flaticon.com/512/2103/2103633.png",
+    desc: "Developing intelligent systems capable of prediction and automation.",
   },
   {
-    name: "BullMQ",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
-    desc: "Implementing robust job queues and background processing for scalable applications.",
+    name: "Data Analytics",
+    logo: "https://cdn-icons-png.flaticon.com/512/4149/4149653.png",
+    desc: "Extracting meaningful insights from structured and unstructured data.",
   },
   {
-    name: "WebSockets",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg",
-    desc: "Enabling real-time, bidirectional communication for live features.",
+    name: "Deep Learning",
+    logo: "https://cdn-icons-png.flaticon.com/512/8637/8637099.png",
+    desc: "Building advanced neural networks for image and text analysis.",
   },
+
   // Tools
   {
     name: "Git & GitHub",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
-    desc: "Version control and collaborative development through industry standards.",
+    desc: "Version control and collaborative development using industry standards.",
   },
   {
-    name: "Postman",
-    logo: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
-    desc: "Testing and documenting REST APIs to ensure seamless integration.",
+    name: "Jupyter Notebook",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg",
+    desc: "Interactive environment for Machine Learning experiments and analysis.",
   },
   {
     name: "VS Code",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
-    desc: "Efficient code editing with powerful extensions and integrated tools.",
+    desc: "Efficient code editing for AI and Machine Learning projects.",
   },
 ];
 

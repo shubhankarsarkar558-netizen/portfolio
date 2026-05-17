@@ -23,9 +23,10 @@ export default function About() {
             </span>
             <span className="absolute bottom-0 left-1/2 -translate-x-1/2 h-1 w-1/2 bg-purple-500 rounded-full transition-all duration-500 group-hover:w-full" />
           </h2>
+
           <p className="mt-4 text-slate-600 dark:text-slate-400 max-w-xl mx-auto">
-            I build modern web systems that balance performance, simplicity and
-            long-term maintainability.
+            I build intelligent systems using Machine Learning and Data
+            Analytics to solve real-world problems with data-driven insights.
           </p>
         </motion.div>
 
@@ -38,82 +39,85 @@ export default function About() {
         >
           {/* Para 1 */}
           <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed">
-            My journey into web development started with curiosity about how
-            digital systems work. Over time, that curiosity evolved into a focus
-            on building production-grade applications using
+            My journey into technology started with curiosity about how data and
+            intelligent systems work. Over time, that curiosity evolved into a
+            passion for
             <span className="font-medium mx-1.5 text-purple-600 dark:text-purple-400">
-              TypeScript
+              Machine Learning
             </span>
             ,
             <span className="font-medium mx-1.5 text-purple-600 dark:text-purple-400">
-              Next.js
+              Data Analytics
             </span>
             and
             <span className="font-medium mx-1.5 text-purple-600 dark:text-purple-400">
-              Node.js
+              Artificial Intelligence
             </span>
             .
           </p>
 
           {/* Para 2 */}
           <p className="text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
-            I focus on clean architecture and scalability — working with
+            I focus on building predictive models and extracting meaningful
+            insights from data using
             <span className="font-medium mx-1.5 text-purple-600 dark:text-purple-400">
-              Supabase
+              Python
             </span>
             ,
             <span className="font-medium mx-1.5 text-purple-600 dark:text-purple-400">
-              Redis
+              Pandas
+            </span>
+            ,
+            <span className="font-medium mx-1.5 text-purple-600 dark:text-purple-400">
+              Scikit-learn
             </span>
             and
             <span className="font-medium mx-1.5 text-purple-600 dark:text-purple-400">
-              BullMQ
+              TensorFlow
             </span>
-            for real-world backend systems. I&#39;ve shipped apps to production,
-            including
+            . I’ve worked on projects involving
             <span className="font-medium mx-1.5 text-purple-600 dark:text-purple-400">
-              Ucoder
+              Salary Prediction
+            </span>
+            ,
+            <span className="font-medium mx-1.5 text-purple-600 dark:text-purple-400">
+              Disease Prediction
             </span>
             and
             <span className="font-medium mx-1.5 text-purple-600 dark:text-purple-400">
-              Ucoder Insights
+              Data Visualization
             </span>
-            — an analytics platform with its own
-            <span className="font-medium mx-1.5 text-purple-600 dark:text-purple-400">
-              npm SDK
-            </span>
-            .
+            to solve practical business and analytical challenges.
           </p>
 
           {/* Quote */}
           <div className="rounded-xl border border-slate-200/60 dark:border-slate-800 bg-gray-300/50 dark:bg-slate-900/50 backdrop-blur-md px-6 py-5">
             <p className="text-slate-700 dark:text-slate-300 italic leading-relaxed">
-              &#34;I believe great software is built when clarity, performance
-              and simplicity come together.&#34;
+              &#34;I believe powerful solutions are created when data,
+              intelligence and simplicity come together.&#34;
             </p>
           </div>
 
           {/* Para 3 */}
           <p className="text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
-            Beyond coding, I enjoy exploring new infrastructure patterns and
-            contributing to open-source. I&#39;m currently working on a
-            large-scale platform that involves
+            Beyond coding, I enjoy exploring modern AI technologies and working
+            on innovative projects involving
             <span className="font-medium mx-1.5 text-purple-600 dark:text-purple-400">
-              HLS video streaming
+              Deep Learning
             </span>
             ,
             <span className="font-medium mx-1.5 text-purple-600 dark:text-purple-400">
-              WebRTC real-time systems
+              Data Analysis
             </span>
             ,
             <span className="font-medium mx-1.5 text-purple-600 dark:text-purple-400">
-              job queues
+              Model Training
             </span>
             and
             <span className="font-medium mx-1.5 text-purple-600 dark:text-purple-400">
-              multi-role access control
+              Predictive Analytics
             </span>
-            — pushing my skills into production infrastructure.
+            — continuously improving my skills in AI and intelligent systems.
           </p>
         </motion.div>
       </div>

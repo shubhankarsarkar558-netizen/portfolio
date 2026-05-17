@@ -6,25 +6,11 @@ import { Award, Image as ImageIcon, ExternalLink } from "lucide-react";
 
 const certificates = [
   {
-    title: "Python Programming Training",
-    issuer: "Academy of Skill Development",
-    date: "Dec 2023",
-    image: "/certificates/python.jpeg",
-    credentialId: "ASDF/PYT/SWA/A+/47677",
-  },
-  {
-    title: "Design & Analysis of Algorithms",
-    issuer: "NPTEL",
-    date: "Apr 2025",
-    image: "/certificates/daa.png",
-    credentialId: "NPTEL25CS23S44980034401313077",
-  },
-  {
     title: "React Development",
     issuer: "ARDENT COMPUTECH PVT LTD",
     date: "July 2024",
-    image: "/certificates/react.jpeg",
-    credentialId: "ARDENT/131991",
+    image: "/certificates/react.png",
+    credentialId: "ARDENT/131993",
   },
 ];
 

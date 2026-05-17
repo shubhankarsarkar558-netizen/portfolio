@@ -23,12 +23,13 @@ export default function Home() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-purple-600 font-bold tracking-[0.15em] md:tracking-[0.2em] uppercase text-[10px] xs:text-xs md:text-sm mb-4">
-              Building the Future of Web
+              Building Intelligent Systems with Data
             </h2>
+
             <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-7xl xl:text-8xl font-black text-slate-900 dark:text-white leading-[1.1] md:leading-[1.1] lg:leading-[0.9] mb-6">
-              FULL STACK <br />
+              MACHINE  <br />
               <span className="text-transparent bg-clip-text bg-linear-to-r from-purple-600 to-blue-500">
-                DEVELOPER
+              LEARNING
               </span>
             </h1>
           </motion.div>
@@ -41,11 +42,23 @@ export default function Home() {
           >
             I&apos;m{" "}
             <span className="text-slate-900 dark:text-white underline decoration-purple-500/30 underline-offset-4 font-bold">
-              Soumyadip
+              Shubhankar
             </span>
-            , Specializing in MERN & TypeScript to craft scalable web
-            applications and AI solutions.
+            , specializing in
+            <span className="font-bold text-purple-500">
+              {" "}Machine Learning
+            </span>
+            ,
+            <span className="font-bold text-purple-500">
+              {" "} Data Analytics
+            </span>
+            and
+            <span className="font-bold text-purple-500">
+              {" "}Artificial Intelligence
+            </span>
+            to build intelligent and data-driven solutions.
           </motion.p>
+
           <div className="flex flex-row items-center justify-center lg:justify-start gap-6">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -57,10 +70,12 @@ export default function Home() {
                 onClick={(e) => {
                   e.preventDefault();
                   const element = document.getElementById("projects");
+
                   if (element) {
                     const offset = 80;
                     const bodyRect = document.body.getBoundingClientRect().top;
                     const elementRect = element.getBoundingClientRect().top;
+
                     window.scrollTo({
                       top: elementRect - bodyRect - offset,
                       behavior: "smooth",
@@ -70,12 +85,14 @@ export default function Home() {
                 className="group flex items-center gap-3 px-6 py-3 md:px-8 md:py-4 bg-slate-900 dark:bg-white text-white dark:text-slate-900 rounded-xl md:rounded-2xl font-bold transition-all hover:bg-purple-600 dark:hover:bg-purple-500 dark:hover:text-white shadow-xl hover:shadow-purple-500/20 text-xs sm:text-sm md:text-base"
               >
                 Explore Projects
+
                 <ArrowRight
                   size={18}
                   className="group-hover:translate-x-1 transition-transform"
                 />
               </button>
             </motion.div>
+
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -83,8 +100,8 @@ export default function Home() {
               className="px-6 py-3 md:px-8 md:py-4 border-2 border-slate-900 dark:border-white text-slate-900 dark:text-white rounded-xl md:rounded-2xl font-bold transition-all hover:bg-purple-600 hover:border-purple-600 dark:hover:bg-purple-500 dark:hover:border-purple-500 shadow-xl hover:shadow-purple-500/20 text-xs sm:text-sm md:text-base cursor-pointer"
             >
               <a
-                href="./soumyadip_maity_fullstack_cv.pdf"
-                download="soumyadip_maity_fullstack_cv.pdf"
+                href="/cv.pdf"
+                download="cv.pdf"
                 className="flex items-center gap-2"
               >
                 <Download size={18} />
@@ -109,11 +126,11 @@ export default function Home() {
               className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 lg:w-96 lg:h-96 rounded-[2rem] md:rounded-[3.5rem] overflow-hidden border-2 border-slate-200 dark:border-slate-800 p-1.5 md:p-2 bg-white dark:bg-slate-900 shadow-2xl group-hover:border-purple-500/50 transition-colors duration-500"
             >
               <Image
-                src="/cv.jpeg"
-                alt="Soumyadip"
+                src="/me.png"
+                alt="shubhankar"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 40vw"
-                className="object-cover object-top  p-1.5 md:p-2 rounded-[1.8rem] md:rounded-[3.3rem] group-hover:scale-105 transition-transform duration-700"
+                className="object-cover object-top p-1.5 md:p-2 rounded-[1.8rem] md:rounded-[3.3rem] group-hover:scale-105 transition-transform duration-700"
                 priority
               />
             </motion.div>
@@ -128,8 +145,10 @@ export default function Home() {
                 className="text-purple-500 mb-1 md:mb-2 rotate-180"
                 size={20}
               />
+
               <p className="text-[10px] md:text-sm font-bold text-slate-800 dark:text-slate-200 leading-snug">
-                &ldquo;Code is my language, and the web is my canvas.&rdquo;
+                &ldquo;Data tells the story, and AI turns it into intelligent
+                solutions.&rdquo;
               </p>
             </motion.div>
           </div>
