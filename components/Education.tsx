@@ -17,7 +17,7 @@ const educationData = [
     duration: "2023 - 2027",
     result: "Average 7.0 YGPA (Ongoing)",
     description:
-      "Focusing on Software Engineering, Data Structures, and Web Technologies.",
+      "Data Analysis and Machine Learning.",
     icon: <GraduationCap size={22} />,
   },
   {
@@ -27,7 +27,7 @@ const educationData = [
     duration: "2021 - 2023",
     result: "61% Marks (HS)",
     description:
-      "Science Stream with Mathematics, Physics, Chemistry, and Biology.",
+      "Science Stream with Mathematics, Physics, Chemistry, and Computer Applications.",
     icon: <BookOpen size={22} />,
   },
   {

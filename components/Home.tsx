@@ -100,8 +100,8 @@ export default function Home() {
               className="px-6 py-3 md:px-8 md:py-4 border-2 border-slate-900 dark:border-white text-slate-900 dark:text-white rounded-xl md:rounded-2xl font-bold transition-all hover:bg-purple-600 hover:border-purple-600 dark:hover:bg-purple-500 dark:hover:border-purple-500 shadow-xl hover:shadow-purple-500/20 text-xs sm:text-sm md:text-base cursor-pointer"
             >
               <a
-                href="/cv.pdf"
-                download="cv.pdf"
+                href="/cv.jpeg"
+                download="cv.jpeg"
                 className="flex items-center gap-2"
               >
                 <Download size={18} />
